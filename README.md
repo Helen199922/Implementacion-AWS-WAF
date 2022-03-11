@@ -1,8 +1,8 @@
 # Implementacion-AWS-WAF
 Implementacion de EDGE SECURITY FOR CLOUD FRONT WITH WAF
+
 Vamos a la consola de aws
- 
--Bueno hay 2 Sitio que provienen de OWASP JUICE SHOP.
+Bueno hay 2 Sitio que provienen de OWASP JUICE SHOP.
 El owasp tiene un sitio demo que esta expuesto en internet. Al entrar en este sitio le va cargar con https. La finalidad de este sitio demo es que busca 2 cosas: 1. Entrar a un aprendizaje de seguridad ofensiva y 2.Empieces a buscar vulnerabilidades dentro de este sitio que crean, hay muchas vulnerabilidades que se pueden descubrir. 
 Pues a este owasp se le hace una réplica, Pues en la réplica se va colocar debajo del aws waf porque se va a relizat una web acl , por lo tanto la función es la siguiente: la replica va estar protegida por aws waf para enviarle algunos ataques y ver como aws waf protege ese tráfico , es decir te niega ese tráfico malicioso, y voy a utilizar el sitio original para enviar el mismo ataque que es muy sencillo.
 
